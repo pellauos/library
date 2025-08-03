@@ -3,4 +3,56 @@
     <url>
         <loc>https://pellauos.github.io/library/</loc>
     </url>
+    <url>
+        <loc>https://pellauos.github.io/library/about/</loc>
+    </url>
+    <url>
+        <loc>https://pellauos.github.io/library/categories/</loc>
+    </url>
+    <url>
+        <loc>https://pellauos.github.io/library/categories/demo/</loc>
+    </url>
+    <url>
+        <loc>https://pellauos.github.io/library/categories/hello-world/</loc>
+    </url>
+    <url>
+        <loc>https://pellauos.github.io/library/code-example/</loc>
+        <lastmod>2017-09-24</lastmod>
+    </url>
+    <url>
+        <loc>https://pellauos.github.io/library/latex-example/</loc>
+        <lastmod>2017-09-24</lastmod>
+    </url>
+    <url>
+        <loc>https://pellauos.github.io/library/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://pellauos.github.io/library/shortcodes-demo/</loc>
+        <lastmod>2017-09-24</lastmod>
+    </url>
+    <url>
+        <loc>https://pellauos.github.io/library/some-article/</loc>
+        <lastmod>2017-09-24</lastmod>
+    </url>
+    <url>
+        <loc>https://pellauos.github.io/library/tags/</loc>
+    </url>
+    <url>
+        <loc>https://pellauos.github.io/library/tags/code/</loc>
+    </url>
+    <url>
+        <loc>https://pellauos.github.io/library/tags/example/</loc>
+    </url>
+    <url>
+        <loc>https://pellauos.github.io/library/tags/fancy/</loc>
+    </url>
+    <url>
+        <loc>https://pellauos.github.io/library/tags/gif/</loc>
+    </url>
+    <url>
+        <loc>https://pellauos.github.io/library/tags/latex/</loc>
+    </url>
+    <url>
+        <loc>https://pellauos.github.io/library/tags/zola/</loc>
+    </url>
 </urlset>
