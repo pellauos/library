@@ -5,13 +5,8 @@ base_url = "https://pellauos.github.io/library"
 compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
+theme = "book"
 build_search_index = true
-
-theme = "after-dark"
-taxonomies = [
-  {name = "categories"},
-  {name = "tags"}
-]
 
 [markdown]
 # Whether to do syntax highlighting

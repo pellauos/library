@@ -1,10 +1,6 @@
 +++
 title = "LaTeX Example" 
 date = 2017-09-24
-
-[taxonomies]
-categories = ["demo"]
-tags = ["latex", "example"]
 +++
 
 This theme allows you to use MathJax directly in your Markdown! Click on this

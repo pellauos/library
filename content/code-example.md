@@ -1,10 +1,6 @@
 +++
 title = "Code Example"
-date = 2017-09-24
-
-[taxonomies]
-categories = ["demo"]
-tags = ["code", "example"]
+date = 2025-09-24
 +++
 
 Have code snippets complete with **clipboard functionality** and **fancy
