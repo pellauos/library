@@ -1,5 +1,5 @@
 +++
-title = "Blog"
+title = "Artificial Intelligence"
 weight = 2
 sort_by = "date"
 paginate_by = 10
