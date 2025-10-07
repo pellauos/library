@@ -13,5 +13,8 @@ build_search_index = true
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
 markup = "goldmark"
+
 [extra]
+book_number_chapters = true
+book_only_current_section_pages = false
 # Put all your custom variables here

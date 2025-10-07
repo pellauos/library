@@ -1,0 +1,36 @@
+/* === math.css for Zola Book theme === */
+
+/* 블록 수식 ( $$ ... $$ ) 중앙 정렬 및 여백 */
+.katex-display {
+  text-align: center;
+  margin: 1.5em 0;
+  font-size: 1.15em;
+  line-height: 1.4;
+}
+
+/* 인라인 수식 ( $ ... $ )은 기본 글줄 높이에 맞춤 */
+.katex {
+  font-size: 1.05em;
+  line-height: 1.2;
+}
+
+/* 수식 스크롤 방지 — 너무 길 때 자동 줄바꿈 */
+.katex-display > .katex {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: normal;
+  word-break: break-word;
+  padding: 0 0.3em;
+}
+
+/* Book 테마 본문 색상 대비에 맞게 수식 색상 지정 */
+.katex, .katex-display {
+  color: var(--text-color, #222);
+}
+
+/* 다크모드 대응 */
+@media (prefers-color-scheme: dark) {
+  .katex, .katex-display {
+    color: #eee;
+  }
+}

@@ -1,0 +1,48 @@
++++
+title = "AI MDMDMDMDMD"
+weight = 34
+date = 2025-10-08
++++
+
+안녕하세요! Book 테마 테스트 글입니다. 888888888888888888888888888888888888888
+
+구조화 테스트 중입니다.-251008
+
+
+$$
+V = E_b + I_a R_a + L_a \frac{dI_a}{dt}
+$$
+
+
+### 기호 설명
+
+| 기호 | 의미 | 단위 |
+|------|------|------|
+| \(V\) | 인가 전압 (Supply voltage) | [V] |
+| \(E_b\) | 역기전력 (Back EMF) | [V] |
+| \(I_a\) | 전기자 전류 (Armature current) | [A] |
+| \(R_a\) | 전기자 저항 (Armature resistance) | [Ω] |
+| \(L_a\) | 전기자 인덕턴스 (Armature inductance) | [H] |
+
+정상상태(steady-state)에서는 다음과 같이 됩니다:
+
+$$
+\frac{dI_a}{dt} = 0
+$$
+
+따라서,
+$$
+V = E_b + I_a R_a = K_e \omega + I_a R_a
+$$
+
+$$
+V = E_b + I_a R_a = K_e \omega + I_a R_a
+$$
+
+---
+
+역기전력 $E_b$는 각속도 $\omega$에 비례합니다.
+
+$$
+E_b = K_e \omega
+$$
