@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+
+  <!-- 기존 Book 테마 CSS 불러오기 -->
+  <link rel="stylesheet" href="{{ get_url(path='book.css') }}">
+  <link rel="stylesheet" href="{{ get_url(path='syntax.css') }}">
+  <link rel="icon" href="{{ get_url(path='favicon.ico') }}">
+
+  <!-- KaTeX support -->
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="/css/math.css">
+
+  <script defer
+    src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"
+    crossorigin="anonymous"></script>
+
+  <script defer
+    src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+    crossorigin="anonymous"
+    onload="renderMathInElement(document.body, {
+      delimiters: [
+        {left: '$$', right: '$$', display: true},
+        {left: '$', right: '$', display: false}
+      ],
+      throwOnError: false
+    });"></script>
+</head>
+
+<body>
+  {% block content %}{% endblock content %}
+</body>
+</html>
