@@ -13,4 +13,10 @@
   src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
   integrity="sha384-mll67QQZ7F2p1ZKcL5eNceH5xOolZeXvwrpN5OEpL4Ew9wX4LrryUHWug6R5O9nt"
   crossorigin="anonymous"
-  onload="renderMathInElement(document.body);"></script>
+  onload="renderMathInElement(document.body, {
+    delimiters: [
+      {left: '$$', right: '$$', display: true},
+      {left: '$', right: '$', display: false}
+    ],
+    throwOnError: false
+  });"></script>
